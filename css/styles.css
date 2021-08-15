@@ -334,14 +334,46 @@ border-radius: 4px;
 }
 
 .checkbox-section {
+  display: flex;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: #757575;
+align-items: center;
+margin-left: 12px;
+}
+
+.checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.custom-checkbox {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin-right: 8px;
+}
+
+.checkbox:checked +.custom-checkbox {
+  background-color: #2196F3;
+  border: 2px solid #2196F3;
+  background-image: url(../images/Vector-2.svg);
+
 }
 
 .agreement-acceptance-link {
   color: #2196F3;
+  margin-left: 4px;
 }
 
 .form-button {
@@ -747,6 +779,56 @@ margin-right: 10px;
 .bottom-social-network-link:focus {
   background-color: #2196f3;
 }
+
+.bottom-form-field {
+  display: flex;
+  align-items: flex-end;
+}
+
+.bottom-subscribing-section {
+display: flex;
+flex-direction: column;
+margin-left: 93px;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.footer-email {
+  margin-top: 20px;
+  width: 358px;
+  height: 50px;
+  background-color: var(--secondary-background-color);
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+}
+
+.subscribing-button {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  background-color: #2196F3;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.subscribing-icon {
+margin-left: 10px;
+}
+
 
 .section-portfolio {
   padding-top: 94px;

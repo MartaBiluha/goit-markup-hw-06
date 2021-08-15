@@ -86,7 +86,8 @@
             <textarea class="comment-area" name="comment" id="comment" cols="30" rows="10" placeholder="Введите текст" class="input-field-comment"></textarea>
             </label>
             <label class="checkbox-section">
-                <input type="checkbox" name="agreement-acceptance">
+                <input class="checkbox" type="checkbox" name="agreement-acceptance">
+                <span class="custom-checkbox"></span>
                 Соглашаюсь с рассылкой и принимаю <a href="#" class="agreement-acceptance-link">Условия договора</a>
             </label>
             <button class="form-button" type="submit">Отправить</button>
@@ -421,6 +422,18 @@
                 </li>
             </ul>
         </div>
+        <form action="#" class="bottom-form-field">
+            <label class="bottom-subscribing-section">
+                Подпишитесь на рассылку
+                <input type="email" name="footer-email" class="footer-email" placeholder="E-mail">
+            </label>
+            <button type="submit" class="subscribing-button">
+                Подписаться
+                <svg class="subscribing-icon" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-send"></use>
+                </svg>
+            </button>
+        </form>
     </div>
     </div>
     </footer>
