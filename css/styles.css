@@ -246,10 +246,14 @@ opacity: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: #FFFFFF;
-  padding: auto;
   margin-right: 8px;
   margin-top: 8px;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .form-title {
