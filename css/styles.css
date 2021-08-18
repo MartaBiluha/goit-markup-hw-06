@@ -199,6 +199,7 @@ main {
   background-color: #2196f3;
   padding: 10px 32px;
   margin: auto;
+  border-color: #2196F3;
 }
 
 .backdrop {
@@ -310,6 +311,7 @@ opacity: 0;
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 50px;
 }
 
 .input-field-comment {
@@ -330,7 +332,8 @@ opacity: 0;
 .comment-area {
   margin-top: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
+  border-radius: 4px;
+  resize: none;
 }
 
 .comment-area:focus {
@@ -429,7 +432,6 @@ transition-property: background-color;
 
 .container .section-advantages {
   display: flex;
-  width: 1200px;
   justify-content: space-between;
 }
 
@@ -679,7 +681,7 @@ footer {
 address {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-top: 20px;
@@ -688,6 +690,7 @@ address {
 .footer-container {
 display: flex;
 align-items: baseline;
+width: inherit;
 }
 
 .bottom-logo {
@@ -810,6 +813,7 @@ color: #FFFFFF;
   border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
+color: #FFFFFF;
 }
 
 .subscribing-button {
@@ -827,6 +831,7 @@ border-radius: 4px;
   justify-content: center;
   align-items: center;
   margin-left: 12px;
+  border: #2196F3;;
 }
 
 .subscribing-icon {
