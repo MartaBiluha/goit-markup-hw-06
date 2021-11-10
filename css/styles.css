@@ -115,19 +115,11 @@ header > .container {
   background-color: #2196F3;
 }
 
-.studio::after {
+.opened-page::after {
   opacity: 1;
 }
 
-.studio {
-  color: #2196f3;
-}
-
-.portfolio-nav::after {
-  opacity: 1;
-}
-
-.portfolio-nav{
+.opened-page {
   color: #2196f3;
 }
 
